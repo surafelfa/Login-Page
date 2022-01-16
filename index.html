@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="letter">S</div>
+                        </div>
+                    </div>
+                </div>
+                <!--<img src="Assets/icons/fb.png" alt="">
+                <img src="Assets/icons/tw.png" alt="">
+                <img src="Assets/icons/ins.png" alt="">-->
+            </div>
+            <form action="" class="input-group" id="login">
+                <label for="user-id"></label>
+                <input type="text" class="input-field" placeholder="user id" name="user-id" autofocus required>
+                <label for="password"></label>
+                <input type="password" class="input-field" placeholder="enter password" name="password" required>
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form action="" class="input-group" id="register">
+                <input type="text" class="input-field" placeholder="user id" required>
+                <input type="email" class="input-field" placeholder="email id" required>
+                <input type="password" class="input-field" placeholder="enter password" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+<script src="Assets/js/event.js"></script>
+</html>
